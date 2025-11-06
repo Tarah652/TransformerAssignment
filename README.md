@@ -508,7 +508,7 @@ python src/utils.py --plot-all
 
 ### 预期结果
 
-运行上述命令后，您应该得到：
+运行上述命令后，应该得到：
 
 **数值结果（误差 < 0.01）**：
 - 基线模型验证困惑度：1.68 ± 0.01
@@ -873,7 +873,7 @@ in the Software without restriction...
 **课程**：大模型基础与应用  
 **学期**：2025年秋季
 
-**项目主页**：[GitHub Repository](https://github.com/yourusername/TransformerAssignment)  
+**项目主页**：[GitHub Repository](https://github.com/Tarah692/TransformerAssignment)  
 
 
 ---
@@ -882,7 +882,6 @@ in the Software without restriction...
 
 - 感谢 **Vaswani et al.** 提出革命性的Transformer架构
 - 感谢 **PyTorch团队** 提供优秀的深度学习框架
-- 感谢 **Hugging Face** 提供便捷的数据集访问
 - 感谢 **WikiMedia Foundation** 提供WikiText数据集
 - 感谢课程教师和助教的指导
 
@@ -933,4 +932,5 @@ in the Software without restriction...
 - [ ] 支持GPU分布式训练
 - [ ] 添加注意力权重可视化
 - [ ] 实现Decoder架构
+
 - [ ] 机器翻译任务实验
