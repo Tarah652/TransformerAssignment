@@ -870,8 +870,6 @@ in the Software without restriction...
 
 **作者**：王雅琦  
 **邮箱**：25125867@bjtu.edu.cn  
-**课程**：大模型基础与应用  
-**学期**：2025年秋季
 
 **项目主页**：[GitHub Repository](https://github.com/Tarah652/TransformerAssignment)  
 
@@ -934,4 +932,5 @@ in the Software without restriction...
 - [ ] 实现Decoder架构
 
 - [ ] 机器翻译任务实验
+
 
