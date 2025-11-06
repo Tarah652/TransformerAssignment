@@ -1,0 +1,33 @@
+# 超快速 CPU 训练版本 - 预计 20-25 分钟内完成
+model:
+  d_model: 64               # 保持 64
+  nhead: 4                  # 保持 4 头
+  num_encoder_layers: 2     # 保持 2 层
+  num_decoder_layers: 2
+  dim_feedforward: 256      # 保持 256
+  dropout: 0.1
+
+data:
+  path: "./data/"
+  batch_size: 64            # 增加到 64（CPU 上反而更快）
+  max_length: 32            # 保持 32
+  vocab_size: 1500          # 降低到 1500（减少计算）
+  dataset_name: "wikitext"
+  dataset_config: "wikitext-2-raw-v1"
+
+training:
+  epochs: 8                 # 降低到 8 轮（提速）
+  learning_rate: 0.001      # 提高学习率加速收敛
+  warmup_steps: 300         # 减少 warmup
+  gradient_clip: 1.0
+  eval_interval: 1
+  save_best: true
+
+device: "cpu"
+
+paths:
+  model_save_path: "./models/transformer_best.pth"
+  result_save_path: "./results/training_results.txt"
+  plot_save_path: "./results/training_history.png"
+
+model_type: "encoder"
