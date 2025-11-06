@@ -1,0 +1,18 @@
+======================================================================
+Transformer Language Model - Training Results
+Dataset: WikiText-2
+======================================================================
+
+Final Train Loss: 1.1882 (PPL: 3.28)
+Final Val Loss: 0.5177 (PPL: 1.68)
+Best Val Loss: 0.5177 (PPL: 1.68)
+
+Epoch History:
+Epoch  1: Train=6.7478 | Val=5.9772
+Epoch  2: Train=5.4604 | Val=4.3964
+Epoch  3: Train=4.5746 | Val=4.0993
+Epoch  4: Train=4.2666 | Val=3.7944
+Epoch  5: Train=3.8310 | Val=3.0509
+Epoch  6: Train=2.8806 | Val=1.7653
+Epoch  7: Train=1.8930 | Val=0.9840
+Epoch  8: Train=1.1882 | Val=0.5177

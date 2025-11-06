@@ -1,0 +1,20 @@
+======================================================================
+Ablation Study: WITHOUT Positional Encoding
+Dataset: WikiText-2
+======================================================================
+
+Final Train Loss: 6.1137 (PPL: 452.03)
+Final Val Loss: 5.9297 (PPL: 376.03)
+Best Val Loss: 5.9297 (PPL: 376.03)
+
+Epoch History:
+Epoch  1: Train=9.1984 | Val=9.1432
+Epoch  2: Train=9.0737 | Val=8.9271
+Epoch  3: Train=8.8324 | Val=8.6292
+Epoch  4: Train=8.5055 | Val=8.2552
+Epoch  5: Train=8.1061 | Val=7.8053
+Epoch  6: Train=7.6416 | Val=7.3063
+Epoch  7: Train=7.1512 | Val=6.8036
+Epoch  8: Train=6.6949 | Val=6.3648
+Epoch  9: Train=6.3394 | Val=6.0728
+Epoch 10: Train=6.1137 | Val=5.9297
